@@ -37,10 +37,10 @@ shinyAppUI <- shiny::fluidPage(
                
                # Show a plot of the Circos
                shiny::mainPanel( 
-                 shiny::tags$style(type="text/css",
-                            ".shiny-output-error { visibility: hidden; }",
-                            ".shiny-output-error:before { visibility: hidden; }"
-                 ),
+                 # shiny::tags$style(type="text/css",
+                 #            ".shiny-output-error { visibility: hidden; }",
+                 #            ".shiny-output-error:before { visibility: hidden; }"
+                 # ),
                  # mainPanel( textOutput("myFileNames")),
                  #downloadButton('foo',class = "rightAlign"),
                  # uiOutput("CPlot"),
